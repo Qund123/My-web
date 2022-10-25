@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../src/img/background.png);
+  }
+  
+  #menu {
+    z-index: 2;
+  }
+  
+  #menu-bar {
+    width: 45px;
+    height: 40px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+  }
+  
+  .bar {
+    height: 5px;
+    width: 100%;
+    background-color: #ffff;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  #bar1 {
+    transform: translateY(-4px);
+  }
+  
+  #bar3 {
+    transform: translateY(4px);
+  }
+  
+  .nav {
+    transition: 0.3s ease;
+    display: none;
+  }
+  
+  .nav ul {
+    padding: 0 22px;
+  }
+  
+  .nav li {
+    list-style: none;
+    padding: 12px 0;
+  }
+  
+  .nav li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .nav li a:hover {
+    font-weight: bold;
+  }
+  
+  .menu-bg, #menu {
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  
+  .menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(circle, #9f8eff, #9f8eff);
+    border-radius: 50%;
+    transition: 0.3s ease;
+  }
+  
+  .change {
+    display: block;
+  }
+  
+  .change .bar {
+    background-color: white;
+  }
+  
+  .change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+  }
+  
+  .change #bar2 {
+    opacity: 0;
+  }
+  
+  .change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
+  }
+  
+  .change-bg {
+    width: 520px;
+    height: 460px;
+    transform: translate(-60%,-30%);
+  }
+
+  /* 여기까지 헴버거 메뉴 */
+  
+.mainBody {
+  margin-top: 10%;
+  margin-left: 15%;
+}
+
+@keyframes fadeInLeft {
+  0% {
+      opacity: 0%;
+      transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+      opacity: 100%;
+      transform: translateZ(0);
+  }
+}
+
+.mainImg {
+  position: relative;
+  animation: fadeInLeft 1s;
+}
+
+.mainImg {
+  width: 250px;
+  background-color: #ffff;
+  border-radius: 1000px;
+}
+
+.h1p {
+  position: relative;
+  animation: fadeInLeft 1.5s;
+  font-size: 50px;
+}
+
+.mainp {
+  color: #ffff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.p {
+  position: relative;
+  animation: fadeInLeft 2s;
+}
+.p1 {
+  position: relative;
+  animation: fadeInLeft 2.1s;
+}
+.p2 {
+  position: relative;
+  animation: fadeInLeft 2.2s;
+}
+.p3 {
+  position: relative;
+  animation: fadeInLeft 2.3s;
+}
+
+/* 여기까지 who am i */
+
+.todobody {
+  background-color: #ffff;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+}
+
+.todotitle {
+  text-align: center;
+  color: #000;
+}
