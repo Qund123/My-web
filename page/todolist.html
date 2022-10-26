@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../src/page.css">
   <script src="../src/js.js"></script>
-  <script src="jquery.cookie.js"></script>  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <title>To do list</title>
 </head>
 
@@ -38,7 +39,7 @@
     <button class="btn-99">Select All</button>
 
 
-    <ul>
+    <ul class="ul">
 
     </ul>
 
@@ -60,8 +61,7 @@
 </body>
 
 </html>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
 
 <script>
   window.document.oncontextmenu = new Function("return false");
@@ -74,12 +74,13 @@
 
 </script>
 <script>
-
 var select = 0;
+
+
   $('.btn-23').click(function () {
     var input = $('#input').val();
     if (input != '') {
-        $('ul').append('<li id="list">' + '<input id="checkbox" type="checkbox">' + input + '</li>')
+        $('.ul').append('<li id="list">' + '<input id="checkbox" type="checkbox">' + input + '</li>')
     }else {
         alert("아무것도 없당");
       }
@@ -98,5 +99,6 @@ var select = 0;
       $('input:checkbox').prop("checked", false)
     }
   });
+
 
 </script>
