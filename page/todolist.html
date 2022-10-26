@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../src/page.css">
   <script src="../src/js.js"></script>
-  <title>Document</title>
+  <script src="jquery.cookie.js"></script>  
+  <title>To do list</title>
 </head>
 
 <body>
@@ -74,7 +75,7 @@
 </script>
 <script>
 
-
+var select = 0;
   $('.btn-23').click(function () {
     var input = $('#input').val();
     if (input != '') {
@@ -89,8 +90,13 @@
   });
 
   $('.btn-99').click(function () {
-    
+    if(select == 0){
+      select = 1;
     $('input:checkbox').prop("checked", true)
+    }else{
+      select = 0;
+      $('input:checkbox').prop("checked", false)
+    }
   });
 
 </script>
