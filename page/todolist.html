@@ -31,21 +31,36 @@
 
   <div class="todobody">
     <p class="todotitle">To do list</p>
+
+    <!-- 전체 선택 -->
+
+    <button class="btn-99">Select All</button>
+
+
     <ul>
-      <li>테스트</li>
+
     </ul>
 
     <!-- HTML !-->
-    <button class="btn-23">
+    <input id="input" type="text" placeholder="할일을 입력해주세요.">
+    <br>
+    <button class="btn-23" type="button" onclick="addItem()">
       <span class="text">Add</span>
       <span class="marquee" aria-hidden>Add</span>
+    </button>
+    <br>
+    <button class="btn-17">
+      <span class="text-container">
+        <span class="text">Delete</span>
+      </span>
     </button>
 
   </div>
 </body>
 
 </html>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" crossorigin="anonymous" async></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 <script>
   window.document.oncontextmenu = new Function("return false");
@@ -54,5 +69,28 @@
   // window.addEventListener("wheel", function (e) {
   //   e.preventDefault();
   // }, { passive: false });
+
+
+</script>
+<script>
+
+
+  $('.btn-23').click(function () {
+    var input = $('#input').val();
+    if (input != '') {
+        $('ul').append('<li id="list">' + '<input id="checkbox" type="checkbox">' + input + '</li>')
+    }else {
+        alert("아무것도 없당");
+      }
+  });
+  
+  $('.btn-17').click(function () {
+    $('input:checked').parent().remove()
+  });
+
+  $('.btn-99').click(function () {
+    
+    $('input:checkbox').prop("checked", true)
+  });
 
 </script>

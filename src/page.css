@@ -108,108 +108,6 @@ body {
 
 
 
-
-
-  .btn-23,
-  .btn-23 *,
-  .btn-23 :after,
-  .btn-23 :before,
-  .btn-23:after,
-  .btn-23:before {
-    border: 0 solid;
-    box-sizing: border-box;
-  }
-  .btn-23 {
-    -webkit-tap-highlight-color: transparent;
-    -webkit-appearance: button;
-    background-color: #000;
-    background-image: none;
-    color: #fff;
-    cursor: pointer;
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-      Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
-      Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-    font-size: 100%;
-    font-weight: 900;
-    line-height: 1.5;
-    margin: 0;
-    -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
-    padding: 0;
-    text-transform: uppercase;
-  }
-  .btn-23:disabled {
-    cursor: default;
-  }
-  .btn-23:-moz-focusring {
-    outline: auto;
-  }
-  .btn-23 svg {
-    display: block;
-    vertical-align: middle;
-  }
-  .btn-23 [hidden] {
-    display: none;
-  }
-  .btn-23 {
-    border-radius: 99rem;
-    border-width: 2px;
-    overflow: hidden;
-    padding: 0.8rem 3rem;
-    position: relative;
-  }
-  .btn-23 span {
-    display: grid;
-    inset: 0;
-    place-items: center;
-    position: absolute;
-    transition: opacity 0.2s ease;
-  }
-  .btn-23 .marquee {
-    --spacing: 5em;
-    --start: 0em;
-    --end: 5em;
-    -webkit-animation: marquee 1s linear infinite;
-    animation: marquee 1s linear infinite;
-    -webkit-animation-play-state: paused;
-    animation-play-state: paused;
-    opacity: 0;
-    position: relative;
-    text-shadow: #fff var(--spacing) 0, #fff calc(var(--spacing) * -1) 0,
-      #fff calc(var(--spacing) * -2) 0;
-  }
-  .btn-23:hover .marquee {
-    -webkit-animation-play-state: running;
-    animation-play-state: running;
-    opacity: 1;
-  }
-  .btn-23:hover .text {
-    opacity: 0;
-  }
-  @-webkit-keyframes marquee {
-    0% {
-      transform: translateX(var(--start));
-    }
-    to {
-      transform: translateX(var(--end));
-    }
-  }
-  @keyframes marquee {
-    0% {
-      transform: translateX(var(--start));
-    }
-    to {
-      transform: translateX(var(--end));
-    }
-  }
-
-/* 버튼 */
-
-
-
-
-
-
-  
 .mainBody {
   margin-top: 10%;
   margin-left: 15%;
@@ -267,12 +165,344 @@ body {
 
 /* 여기까지 who am i */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-23,
+.btn-23 *,
+.btn-23 :after,
+.btn-23 :before,
+.btn-23:after,
+.btn-23:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-23 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  text-transform: uppercase;
+}
+.btn-23:disabled {
+  cursor: default;
+}
+.btn-23:-moz-focusring {
+  outline: auto;
+}
+.btn-23 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-23 [hidden] {
+  display: none;
+}
+.btn-23 {
+  border-radius: 99rem;
+  border-width: 2px;
+  overflow: hidden;
+  padding: 0.8rem 3rem;
+  position: relative;
+}
+.btn-23 span {
+  display: grid;
+  inset: 0;
+  place-items: center;
+  position: absolute;
+  transition: opacity 0.2s ease;
+}
+.btn-23 .marquee {
+  --spacing: 3em;
+  --start: 0em;
+  --end: 3em;
+  -webkit-animation: marquee 1s linear infinite;
+  animation: marquee 1s linear infinite;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  opacity: 0;
+  position: relative;
+  text-shadow: #fff var(--spacing) 0, #fff calc(var(--spacing) * -1) 0,
+    #fff calc(var(--spacing) * -2) 0;
+}
+.btn-23:hover .marquee {
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+  opacity: 1;
+}
+.btn-23:hover .text {
+  opacity: 0;
+}
+@-webkit-keyframes marquee {
+  0% {
+    transform: translateX(var(--start));
+  }
+  to {
+    transform: translateX(var(--end));
+  }
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(var(--start));
+  }
+  to {
+    transform: translateX(var(--end));
+  }
+}
+
+/* 버튼 1 */
+
+
+
+
+
+
+
+.btn-17,
+.btn-17 *,
+.btn-17 :after,
+.btn-17 :before,
+.btn-17:after,
+.btn-17:before {
+border: 0 solid;
+box-sizing: border-box;
+}
+.btn-17 {
+-webkit-tap-highlight-color: transparent;
+-webkit-appearance: button;
+background-color: #000;
+background-image: none;
+color: #fff;
+cursor: pointer;
+font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+  Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+  Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+font-size: 100%;
+font-weight: 900;
+line-height: 1.5;
+margin: 0;
+-webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+padding: 0;
+text-transform: uppercase;
+}
+.btn-17:disabled {
+cursor: default;
+}
+.btn-17:-moz-focusring {
+outline: auto;
+}
+.btn-17 svg {
+display: block;
+vertical-align: middle;
+}
+.btn-17 [hidden] {
+display: none;
+}
+.btn-17 {
+border-radius: 99rem;
+border-width: 2px;
+padding: 0.8rem 3rem;
+z-index: 0;
+}
+.btn-17,
+.btn-17 .text-container {
+overflow: hidden;
+position: relative;
+}
+.btn-17 .text-container {
+display: block;
+mix-blend-mode: difference;
+}
+.btn-17 .text {
+display: block;
+position: relative;
+}
+.btn-17:hover .text {
+-webkit-animation: move-up-alternate 0.3s forwards;
+animation: move-up-alternate 0.3s forwards;
+}
+@-webkit-keyframes move-up-alternate {
+0% {
+  transform: translateY(0);
+}
+50% {
+  transform: translateY(80%);
+}
+51% {
+  transform: translateY(-80%);
+}
+to {
+  transform: translateY(0);
+}
+}
+@keyframes move-up-alternate {
+0% {
+  transform: translateY(0);
+}
+50% {
+  transform: translateY(80%);
+}
+51% {
+  transform: translateY(-80%);
+}
+to {
+  transform: translateY(0);
+}
+}
+.btn-17:after,
+.btn-17:before {
+--skew: 0.2;
+background: #fff;
+content: "";
+display: block;
+height: 102%;
+left: calc(-50% - 50% * var(--skew));
+pointer-events: none;
+position: absolute;
+top: -104%;
+transform: skew(calc(150deg * var(--skew))) translateY(var(--progress, 0));
+transition: transform 0.2s ease;
+width: 100%;
+}
+.btn-17:after {
+--progress: 0%;
+left: calc(50% + 50% * var(--skew));
+top: 102%;
+z-index: -1;
+}
+.btn-17:hover:before {
+--progress: 100%;
+}
+.btn-17:hover:after {
+--progress: -102%;
+}
+
+/* 버튼 2 */
+
+
+
+
+
+
+
+
+.btn-99,
+.btn-99 *,
+.btn-99 :after,
+.btn-99 :before,
+.btn-99:after,
+.btn-99:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-99 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+  padding: 0;
+}
+.btn-99:disabled {
+  cursor: default;
+}
+.btn-99:-moz-focusring {
+  outline: auto;
+}
+.btn-99 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-99 [hidden] {
+  display: none;
+}
+.btn-99 {
+  --margin: 20%;
+  background: none;
+  -webkit-clip-path: polygon(
+    calc(var(--margin) * -1) 0,
+    calc(100% + var(--margin)) 0,
+    calc(100% + var(--margin)) 100%,
+    calc(var(--margin) * -1) 100%
+  );
+  clip-path: polygon(
+    calc(var(--margin) * -1) 0,
+    calc(100% + var(--margin)) 0,
+    calc(100% + var(--margin)) 100%,
+    calc(var(--margin) * -1) 100%
+  );
+  display: inline;
+  font-weight: 900;
+  -webkit-mask-image: none;
+  position: relative;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+.btn-99:hover {
+  transform: scale(1.1);
+}
+.btn-99:before {
+  background: rgb(0, 0, 0);
+  content: "";
+  height: 2px;
+  left: -100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.2s;
+  width: calc(100% + var(--margin) * 2);
+}
+.btn-99:hover:before {
+  transform: translate(calc(100% - var(--margin) * 2), -50%);
+}
+
+
+/* 버튼 3 */
+
+
+
+
+
+
+
 .todobody {
+  border-radius: 5px;
   text-align: center;
-  background-color: #ffff;
+  background-color: rgb(255, 255, 255);
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 10%;
+  box-shadow: 12px 12px 5px 1px #8a8a8a;
 }
 
 .todotitle {
@@ -280,4 +510,30 @@ body {
   font-size: 50px;
   text-align: center;
   color: #000;
+}
+
+@keyframes add {
+  0% {
+      opacity: 0%;
+      transform: translate3d(0, -100%, 0);
+  }
+  100% {
+      opacity: 100%;
+      transform: translateZ(0);
+  }
+}
+
+#list {
+  font-size: 30px;
+  font-family: 'Black Han Sans', sans-serif;
+  animation: add 0.5s;
+  list-style: none;
+}
+
+#checkbox {
+  width: 30px; /*Desired width*/
+
+  height: 30px; /*Desired height*/
+  
+  cursor: pointer;
 }
