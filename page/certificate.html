@@ -7,9 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../src/page.css">
   <script src="../src/js.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script> -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <title>To do list</title>
+  <title>certificate</title>
 </head>
 
 <body>
@@ -31,38 +32,14 @@
 
   <div class="menu-bg" id="menu-bg"></div>
 
-  <div class="todobody">
-    <p class="todotitle">To do list</p>
+  
+<img src="../src/img/certificate/gtq 자격증.png">
+<img src="../src/img/certificate/kait 자격증.png">
+<img src="">
 
-    <!-- 전체 선택 -->
-
-    <button class="btn-99">Select All</button>
-
-
-    <ul class="ul">
-
-    </ul>
-
-    <!-- HTML !-->
-    <input id="input" type="text" placeholder="할일을 입력해주세요.">
-    <br>
-    <button class="btn-23" type="button" onclick="addItem()">
-      <span class="text">Add</span>
-      <span class="marquee" aria-hidden>Add</span>
-    </button>
-    <br>
-    <button class="btn-17">
-      <span class="text-container">
-        <span class="text">Delete</span>
-      </span>
-    </button>
-
-  </div>
 </body>
 
 </html>
-
-
 <script>
   window.document.oncontextmenu = new Function("return false");
   window.document.onselectstart = new Function("return false");
@@ -71,34 +48,18 @@
   //   e.preventDefault();
   // }, { passive: false });
 
-
 </script>
-<script>
-var select = 0;
-
-
-  $('.btn-23').click(function () {
-    var input = $('#input').val();
-    if (input != '') {
-        $('.ul').append('<li id="list">' + '<input id="checkbox" type="checkbox">' + input + '</li>')
-    }else {
-        alert("아무것도 없당");
-      }
-  });
-  
-  $('.btn-17').click(function () {
-    $('input:checked').parent().remove()
+<!-- <script>
+  $('.github').click(function(){
+    gsap.to(".github", { duration: 3, x: 200, rotate: 720});
+    gsap.to(".githublink", { duration: 3, opacity: 1, x: 200});
   });
 
-  $('.btn-99').click(function () {
-    if(select == 0){
-      select = 1;
-    $('input:checkbox').prop("checked", true)
-    }else{
-      select = 0;
-      $('input:checkbox').prop("checked", false)
-    }
+  $('.instagram').click(function(){
+    gsap.to(".instagram", { duration: 3, x: 200, rotate: 720});
   });
 
-
-</script>
+  $('.blog').click(function(){
+    gsap.to(".blog", { duration: 3, x: 200, rotate: 720});
+  });
+</script> -->
