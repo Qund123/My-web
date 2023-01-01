@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -111,6 +112,7 @@ body {
 .mainBody {
   margin-top: 10%;
   margin-left: 15%;
+  font-size: 25px;
 }
 
 @keyframes fadeInLeft {
@@ -139,27 +141,28 @@ body {
   position: relative;
   animation: fadeInLeft 1.5s;
   font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.mainTitle {
+  color: #ffff;
+  font-family: 'Do Hyeon', sans-serif;
 }
 
 .mainp {
-  color: #ffff;
-  font-family: 'Black Han Sans', sans-serif;
+  margin-top: 20px;
 }
 
 .p {
-  position: relative;
   animation: fadeInLeft 2s;
 }
 .p1 {
-  position: relative;
   animation: fadeInLeft 2.1s;
 }
 .p2 {
-  position: relative;
   animation: fadeInLeft 2.2s;
 }
 .p3 {
-  position: relative;
   animation: fadeInLeft 2.3s;
 }
 
